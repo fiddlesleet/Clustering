@@ -8,7 +8,9 @@ library(readr)
 # LOAD DATA
 ###########
 
-# 3000 stocks on 100 metrics: Download data: https://drive.google.com/file/d/0ByPBn4rtMQ5HaVFITnBObXdtVUU/view 
+# Download data: https://drive.google.com/file/d/0ByPBn4rtMQ5HaVFITnBObXdtVUU/view 
+# The data: 3000 observations of a stock over 100 metrics
+# Outcome variable Y: 1 if stock price increased, -1 if stock price decreased 
 df <- read_csv("stock_data.csv")
 # inspect
 df
